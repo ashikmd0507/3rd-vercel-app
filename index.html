@@ -61,6 +61,7 @@
             animation: pulse 2s infinite;
             margin: 30px 0;
             text-shadow: 0 0 30px rgba(255, 255, 255, 0.9);
+            /* Removed rotation */
         }
 
         /* Floating Hearts */
@@ -114,11 +115,6 @@
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.2); }
-        }
-
-        @keyframes rotate {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
         }
 
         @keyframes float {
